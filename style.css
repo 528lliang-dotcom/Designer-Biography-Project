@@ -1,3 +1,7 @@
 .background-image {
-    background-image: url(/*left blank*/)
+    background-image: url(/*left blank*/);
+    filter: blur(0.2rem) brightness(0.7)
+}
+p {
+    font-size: large;
 }
