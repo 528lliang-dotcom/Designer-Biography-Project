@@ -1,7 +1,20 @@
 .background-image {
     background-image: url(/*left blank*/);
-    filter: blur(0.2rem) brightness(0.7)
+    filter: blur(0.8) saturate(0);
 }
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-border {
+    border: 50px;
+}
+
 p {
     font-size: large;
 }
+
